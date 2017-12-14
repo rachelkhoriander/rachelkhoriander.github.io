@@ -10,7 +10,7 @@ Using simple PHP, we can focus in on the integration process without complicatin
 
 Throughout this tutorial, we have kept the code simple, so you will need to create your own error handling.
 
-##Topics
+## Topics
 
 - How Does GitHub Authentication Work?
 - What is an Access Token?
@@ -20,12 +20,13 @@ Throughout this tutorial, we have kept the code simple, so you will need to crea
 - Deploying Your Application
 - Running Your Application
 
-##How Does GitHub Authentication Work?
+## How Does GitHub Authentication Work?
 
 Like many other sites, GitHub uses a security framework called OAuth to allow users to grant third-party applications access to their GitHub data without giving them the password. To accomplish this, GitHub’s authorization server issues access tokens to third-party clients. When a user logs on to the system and provides credentials that authenticate against the authentication database, the logon service generates the access token, which is then used by the third party to access protected resources hosted by GitHub.
 
-##What is an Access Token?
-An access token is a piece of data that accompanies a request to a server and is verified for authenticity before the server responds to the request. Tokens are signed rather than encrypted, which means that they can be easily decoded and its contents revealed. To decode the token, the app needs to provide a secret along with the token. Without the proper secret, the token is useless.
+## What is an Access Token?
+
+An access token is a piece of data that accompanies a request to a server and is verified for authenticity before the server responds to the request. The third-party application provides a key, or secret, along with the token to allow the server to decode and verify it. Without the correct secret, the token is useless.
 
 
 1. test one
