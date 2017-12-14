@@ -1,14 +1,12 @@
 # Authenticating with GitHub
 
-If you don’t mind your application depending on a third-party authentication provider, you can use GitHub’s API to outsource your authorization server. Benefits of this strategy include:
+Welcome to the first of a series of tutorials on using the GitHub API. In this tutorial, we will learn how to use GitHub's API to authenticate users to your own website, as demonstrated through a simple PHP application. Benefits of using GitHub to authenticate include:
 
 - less development time
 -	less code to implement
 - reduced maintenance
 
-In this tutorial, you will learn to integrate GitHub’s OAuth authentication method with your own website, as demonstrated through a simple PHP application.
-
-By using simple PHP, we can focus in on the integration process without complicating the issue by introducing unfamiliar frameworks. PHP also allows us to avoid exposing sensitive data through client-side code. 
+Using simple PHP, we can focus in on the integration process without complicating the issue by introducing unfamiliar frameworks. Using PHP also allows us to avoid exposing sensitive data through client-side code. 
 
 Throughout this tutorial, we have kept the code simple, so you will need to create your own error handling.
 
