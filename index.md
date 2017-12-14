@@ -14,7 +14,7 @@ Throughout this tutorial, we have kept the code simple, so you will need to crea
 
 ## Topics
 
-- How Does GitHub Authentication Work?(#how-does-github-authentication-work)
+- [How Does GitHub Authentication Work?](#how-does-github-authentication-work)
 - What is an Access Token?
 
 - Registering Your Application with GitHub
@@ -22,7 +22,7 @@ Throughout this tutorial, we have kept the code simple, so you will need to crea
 - Deploying Your Application
 - Running Your Application
 
-## How Does GitHub Authentication Work?(#how-does-github-authentication-work)
+## [How Does GitHub Authentication Work?](#how-does-github-authentication-work)
 
 Like many other sites, GitHub uses a security framework called OAuth to allow users to grant third-party applications access to their GitHub data without giving them the password. To accomplish this, GitHub’s authorization server issues access tokens to third-party clients. When a user logs on to the system and provides credentials that authenticate against the authentication database, the logon service generates the access token, which is then used by the third party to access protected resources hosted by GitHub.
 
