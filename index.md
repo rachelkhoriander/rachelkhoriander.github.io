@@ -1,6 +1,6 @@
 # Authenticating with GitHub
 
-Welcome to the first of a series of tutorials on using the GitHub API. In this tutorial, we will learn how to use GitHub's API to authenticate users to your own website, as demonstrated through a simple PHP application. 
+Welcome to the first of a series of tutorials on using the GitHub API. In this tutorial, you will learn how to use GitHub's API to authenticate users to your own website, as demonstrated through a simple PHP application. 
 
 Benefits of using GitHub to authenticate include:
 
@@ -18,6 +18,7 @@ Throughout this tutorial, we have kept the code simple, so you will need to crea
 - [What is an Access Token?](#what-is-an-access-token)
 
 - [Registering Your Application with GitHub](#registering-your-application-with-github)
+
 - Building Your Application
 - Deploying Your Application
 - Running Your Application
@@ -34,7 +35,7 @@ The basic process is as follows:
 4. The client exchanges the code for an access token.
 5. The client accesses the API using the user’s access token.
 
-## What is an Access Token?
+### What is an Access Token?
 
 An access token is a piece of data that accompanies a request to a server and is verified for authenticity before the server responds to the request. The third-party application provides a key, or _secret_, along with the token to allow the server to decode and verify it. Without the correct secret, the token is useless.
 
