@@ -17,7 +17,7 @@ Throughout this tutorial, we have kept the code simple, so you will need to crea
 - [How Does GitHub Authentication Work?](#how-does-github-authentication-work)
 - [What is an Access Token?](#what-is-an-access-token)
 
-- Registering Your Application with GitHub
+- [Registering Your Application with GitHub](#registering-your-application-with-github)
 - Building Your Application
 - Deploying Your Application
 - Running Your Application
@@ -36,13 +36,12 @@ The basic process is as follows:
 
 ## What is an Access Token?
 
-An access token is a piece of data that accompanies a request to a server and is verified for authenticity before the server responds to the request. The third-party application provides a key, or secret, along with the token to allow the server to decode and verify it. Without the correct secret, the token is useless.
+An access token is a piece of data that accompanies a request to a server and is verified for authenticity before the server responds to the request. The third-party application provides a key, or _secret_, along with the token to allow the server to decode and verify it. Without the correct secret, the token is useless.
+
+## Registering Your Application with GitHub
 
 
 
-
-1. test one
-2. test two
 
 
 My name is **Rachel** _Elizabeth_ 'Khoriander'
