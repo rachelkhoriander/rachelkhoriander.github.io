@@ -44,9 +44,9 @@ Before you can use GitHub authentication for your web application, you must firs
 
 Before you begin, you will need to know:
 
--	Your application’s main URL
+  -	Your application’s main URL
     In this tutorial, we have created our app at _https://rachel.sems-tech.com_.
--	Your callback URL (the URL of the page to which GitHub should redirect the user after authentication is complete).
+  -	Your callback URL (the URL of the page to which GitHub should redirect the user after authentication is complete).
     In this tutorial, we call this _callback.php_.
 
 Once you have gathered this info, you are ready to register.
