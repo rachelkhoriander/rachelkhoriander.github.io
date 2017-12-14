@@ -40,6 +40,37 @@ An access token is a piece of data that accompanies a request to a server and is
 
 ## Registering Your Application with GitHub
 
+Before you can use GitHub authentication for your web application, you must first register it with GitHub. You can register your app under your personal account or under any organization to which you have administrative access.
+
+Before you begin, you will need to know:
+
+-	Your application’s main URL
+  In this tutorial, we have created our app at "https://rachel.sems-tech.com".
+-	Your callback URL (the URL of the page to which GitHub should redirect the user after authentication is complete). 
+  In this tutorial, we call this "callback.php".
+
+Once you have gathered this info, you are ready to register.
+
+1.	Log in to your GitHub account.
+2.	In the upper-right corner of any page, click your profile photo, then click Settings.
+ 
+3.	In the left sidebar, click Developer settings.
+
+4.	In the left sidebar, click OAuth Apps.
+5.	Click New OAuth App.
+Note: If you haven't created an app before, this button will say, Register a new application.
+6.	In "Application name", type the name of your app.
+7.	In "Homepage URL", type the full URL to your app's website.
+8.	Optionally, in "Application description", type a description of your app that users will see.
+9.	In "Authorization callback URL", type the callback URL of your app.
+10.	Now give the application a name, main URL, and callback URL. The callback URL is where GitHub will redirect your users to after they successfully login. It has to be on the same domain as your main URL. It also needs to be a valid http:// URL. GitHub won't accept 'localhost', 'your mom', etc.
+11.	Info about what to fill out here:
+12.	https://developer.github.com/apps/building-integrations/setting-up-and-registering-oauth-apps/about-authorization-options-for-oauth-apps/
+13.	Click Register application.
+
+When you have finished, your application will be assigned a Client ID and Client Secret. Also notice that you can edit any options for your app or revoke tokens from this page. In the process of testing you may need to do this a few times. https:// is your friend.
+Screenshot of final page. Annotate?
+
 
 
 
