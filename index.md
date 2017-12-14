@@ -13,7 +13,7 @@ Using simple PHP, we can focus in on the integration process without complicatin
 Throughout this tutorial, we have kept the code simple, so you will need to create your own error handling.
 
 ## Topics
-[TOC]
+`[TOC]`
 
 - [How Does GitHub Authentication Work?](#how-does-github-authentication-work)
 - [What is an Access Token?](#what-is-an-access-token)
